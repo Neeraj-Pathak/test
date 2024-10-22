@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Mitr:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "forum";
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.headerTitleSm{
+    position: absolute;
+    top:45%;
+    font-size: 25px;
+}
+
+.headerTitleLg{
+    position: absolute;
+    top: 50%;
+    font-size: 100px;
+}
+
+.headerImg{
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+  object-fit: cover;
+}
+
+.about-section{
+    margin-top: 0;
+    height: 250px;
+    background-color: #eeefeb;
+    padding: 10px 20% 10px 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text{
+    font-family: "rethink-sans";
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 1.6;
+    color: #494449;
+
+}
+
+/* 3RD LAYER */
+
+.grid-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 7px;
+}
+
+.grid-right{
+    height: 600px;
+    width: 50vw;
+    background-color: #d9e5db;
+
+}
+
+.grid-right-text{
+    font-family: "rethink-sans";
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 6rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 2rem;
+    margin-top: 4rem;
+    line-height: 1.6;
+    color: #494449;
+    font-family: "josephin-sans";
+}
+
+.grid-right-btn{
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-left: 30%;
+    padding: 0.5rem 2.8rem 0.5rem 2.8rem;
+    background-color: #6b9080;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.grid-right-btn:hover{
+    background-color: #fff;
+    color: #6b9080;
+}
+
+.grid2-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.grid2-left{
+    height: 600px;
+    width: 50vw;
+    width: 50%;
+    background-color: #7FA1C3;
+
+}
+
+.grid2-right-text{
+    color: #eeefeb;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 250px 250px;
+    font-size: 6rem;
+    line-height: 80px;
+    display: block;
+    position: absolute;
+    font-family: "josephin-sans";
+    cursor: pointer;
+}
+
+.grid2-left-text{
+    font-family: "rethink-sans";
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 6rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 2rem;
+    margin-top: 4rem;
+    line-height: 1.6;
+    color: #494449;
+    font-family: "rethink-sans";
+}
+
+.grid2-left-btn{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-left: 20%;
+    margin-right: 30%;
+    padding: 0.5rem 0 0.5rem 3.8rem;
+    transform: translate(2.5rem);
+    background-color: #6482AD;
+    color: #fff;
+    cursor: pointer;
+}
+
+.grid2-left-btn:hover{
+    background-color: #d9e5db;
+    color: #6482AD;
+}
+
+.grid-left{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("https://plus.unsplash.com/premium_photo-1661777702966-aed29ab4106b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVhbHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size:contain;
+    height: 600px;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    place-content: stretch center;
+    align-items: center;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    display: flex;
+    cursor: pointer;
+}  
+
+.grid2-right{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("https://media.istockphoto.com/id/1134086311/photo/chinese-take-away-boxes.jpg?s=612x612&w=0&k=20&c=4JQaJFAqS0XYjm8S5lhnWLER28v4m0hVWXJGRXNujpE=");
+    background-size:contain;
+    height: 600px;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    place-content: stretch center;
+    align-items: center;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    display: flex;
+    cursor: pointer;
+}  
+
+.grid-left-text{
+    color: #fff;
+    top: 50%;
+    font-size: 100px;
+    font-family: "forum";
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+/* BLOCK 3 CONTENT */
+
+.block3-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url("https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90ZWwlMjB0YWJsZXxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-color: #494449;
+    position: relative;
+    flex-wrap: wrap;
+    place-content: stretch center;
+    align-items: center;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    display: flex;
+    margin-top: 7px;
+    cursor: pointer;
+}  
+
+.block3-text{
+    color: #fff;
+    top: 50%;
+    font-size: 100px;
+    font-family: "forum";
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.block3-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block3-btn{
+    background-color: #eeefeb;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.block3-btn-text{
+    color: #494449;
+    font-family: "poppins";
+    text-transform: uppercase;
+    padding: 2px 42px 2px 42px;
+    font-size: 1rem;
+}
+
+.block3-btn:hover{
+    background-color: #494449;
+}
+
+.block3-btn-text:hover{
+    background-color: #494449;
+    color: #eeefeb;
+}
+
+/* MEDIA QUERIES */
+
+/* Small devices (phones, up to 600px) */
+@media (max-width: 600px) {
+    .headerTitleSm {
+        font-size: 20px;
+        top: 40%;
+    }
+    .headerTitleLg {
+        font-size: 50px;
+        top: 45%;
+    }
+    .about-section {
+        height: auto;
+        padding: 10px 5%;
+    }
+    .about-text {
+        font-size: 1.2rem;
+    }
+    .grid-container,
+    .grid2-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-right,
+    .grid2-left {
+        width: 100%;
+        height: auto;
+    }
+    .grid-right-text,
+    .grid2-left-text {
+        padding: 2rem;
+        font-size: 1rem;
+    }
+    .grid-right-btn,
+    .grid2-left-btn {
+        width: 80%;
+        margin: 10px auto;
+        font-size: 1.2rem;
+    }
+    .grid-left,
+    .grid2-right {
+        height: 300px;
+        width: 100vw;
+    }
+    .grid-left-text,
+    .grid2-right-text {
+        font-size: 40px;
+    }
+    .block3-container {
+        padding: 60px 20px;
+    }
+    .block3-text {
+        font-size: 60px;
+    }
+}
+
+/* Medium devices (tablets, 601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .headerTitleSm {
+        font-size: 25px;
+        top: 45%;
+    }
+    .headerTitleLg {
+        font-size: 70px;
+        top: 48%;
+    }
+    .about-section {
+        height: auto;
+        padding: 10px 15%;
+    }
+    .about-text {
+        font-size: 1.5rem;
+    }
+    .grid-container,
+    .grid2-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .grid-right,
+    .grid2-left {
+        width: 50%;
+        height: 400px;
+    }
+    .grid-right-text,
+    .grid2-left-text {
+        padding: 3rem;
+        font-size: 1.1rem;
+    }
+    .grid-right-btn,
+    .grid2-left-btn {
+        width: 70%;
+        margin: 20px auto;
+        font-size: 1.4rem;
+    }
+    .grid-left,
+    .grid2-right {
+        height: 400px;
+    }
+    .grid-left-text,
+    .grid2-right-text {
+        font-size: 80px;
+    }
+    .block3-container {
+        padding: 80px 30px;
+    }
+    .block3-text {
+        font-size: 80px;
+    }
+}
